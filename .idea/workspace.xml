@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a638e1f9-41a3-41cd-bb60-b8e07c8f23ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProjectEuler22" />
-    </list>
+    <list default="true" id="a638e1f9-41a3-41cd-bb60-b8e07c8f23ad" name="Default" comment="" />
     <ignored path="python-proj.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
