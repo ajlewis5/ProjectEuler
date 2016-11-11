@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a638e1f9-41a3-41cd-bb60-b8e07c8f23ad" name="Default" comment="" />
+    <list default="true" id="a638e1f9-41a3-41cd-bb60-b8e07c8f23ad" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectEuler22" afterPath="$PROJECT_DIR$/ProjectEuler22" />
+    </list>
     <ignored path="python-proj.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +25,8 @@
       <file leaf-file-name="ProjectEuler22" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjectEuler22">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="78">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -333,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectEuler22">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="78">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding />
         </state>
       </provider>

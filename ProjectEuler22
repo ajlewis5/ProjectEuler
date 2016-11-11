@@ -9,3 +9,40 @@
 #
 #What is the total of all the name scores in the file?
 
+
+letter_values = {}
+letter = 'a'
+while ord(letter) <= 96+26 :
+    letter_values[letter] = ord(letter) - 96
+    letter = chr(ord(letter) + 1)
+
+def alpha_value(s) :
+    alpha_val = 0
+    for l in s :
+        alpha_val = alpha_val + letter_values[l]
+    return alpha_val
+
+#open the file of names
+names_file = open("names.txt", "r")
+
+#read names from file into list
+names_str = names_file.read()
+
+#split string of names into a list
+names = names_str.split(",")
+names.sort()
+
+i = 0
+while i < len(names) :
+    names[i] = names[i].replace("\"", "")
+    i += 1
+
+total = 0
+for n in names :
+    alpha_val = alpha_value(n.lower())
+
+    name_score = alpha_val * (names.index(n) + 1)
+
+    total += name_score
+
+print(total)
